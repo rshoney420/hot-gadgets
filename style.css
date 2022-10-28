@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container{
+    margin-bottom: 100px;
+}
+body{
+    font-family: montserrat ;
+
+}
+nav{
+    height: 100px;
+    width: 100%;
+}
+.navigation{
+    color: rgb(217, 217, 222);
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline;
+    line-height: 70px;
+    margin: 0 5px;
+    
+}
+nav ul li a{
+    color: grey;
+    font-size: 20px;
+    text-decoration: none; 
+}
+.bgimg{
+    background-image: url(bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.bgimg-2{
+    background-image: url(bg-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.card{
+    border: 0;
+    box-shadow: 5px 5px  10px lightgray;
+    padding: 20px ;
+    height: 150px;
+    width: 400px;
+}
+.buy-now-button{
+    background-color: #0f0e0f;
+    color: azure;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 25px;
+    cursor: pointer;
+    
+}
+.others{
+    float: right;
+    color: rgb(255, 184, 6);
+}
+.abc{
+    text-align: center;
+    text-decoration: underline  5px solid orange;
+}
+.fuck{
+    display: flex;
+}
+.you{
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.too img{
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 10px;
+}
+.sss{
+    text-align: center;
+}
